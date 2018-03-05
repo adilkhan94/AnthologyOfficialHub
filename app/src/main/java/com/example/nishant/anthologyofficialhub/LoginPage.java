@@ -23,7 +23,7 @@ import com.example.nishant.anthologyofficialhub.Interface.mailfg;
 
 
 public class LoginPage extends AppCompatActivity implements forget,mailfg, Connection {
-    String s, s1, Pass="", EmailID="", message, emailval;
+    String s, s1, Pass="", EmailID="", message, emailval;//this is used to check whether it is ouched on git or nor
     TextView textView, textView1, textView2, textView3;
     EditText editText, editText1;
     Button button;
