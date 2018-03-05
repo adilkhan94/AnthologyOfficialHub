@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nishant.anthologyofficialhub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Official" />
+        <activity android:name=".OfficialGridAdapter" />
+        <activity android:name=".FragmentGridAdapter" />
+        <activity android:name=".AdminEmpRegistration" />
+        <activity android:name=".TandC" />
+        <activity android:name=".Official2" />
+        <activity android:name=".DeleteEmp" />
+        <activity android:name=".UpdateEmp" />
+        <activity android:name=".DeleteUser" />
+        <activity android:name=".UpdateOwnSeller" />
+        <activity android:name=".OfflinePage" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".AddPincode" />
+        <activity android:name=".UpdatePincode" />
+        <activity android:name=".DeletePincode" />
+        <activity android:name=".UpdatePlacedOrderStatus" />
+        <activity android:name=".DeleteSeller" />
+        <activity android:name=".TransactionDetail" />
+        <activity android:name=".SellerTransactionDetail" />
+        <activity android:name=".InsertSong" />
+        <activity android:name=".UpdateSong" />
+        <activity android:name=".DeleteSong" />
+        <activity android:name=".ViewSeller" />
+        <activity android:name=".DeleteAlbum" />
+        <activity android:name=".DeleteCategory"></activity>
+    </application>
+
+</manifest>
